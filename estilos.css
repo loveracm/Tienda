@@ -1,0 +1,45 @@
+body{
+    background-color: #deeff6;
+}
+.navbar {
+    display: f;
+    background-color: #b2eef9;
+    padding: 10px;
+    color: #0d5472;
+    text-align: center;
+    transition: top 0.4s; 
+}
+.navbar.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    color:#0d5472;
+    text-decoration: none;
+    margin: 0 15px;
+    text-align: center;
+    font-size: 30px;
+    transition: red 0.3s ;
+}
+.navbar a:hover{
+    color: #adcc29;
+
+}
+
+.manteles{
+    text-align: center;
+    color: #0d5472;
+}
+.imagenes{
+    display: flex;
+    justify-content: center;
+}
+.imagenes :hover {
+    transform: scale(1.1);
+  }
+  .toallones{
+    text-align: center;
+    color: #0d5472;
+}
